@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-[#141B2B] text-white shadow-md "style={{ height: '80px' }}>
       <div className="max-w-7xl mx-auto px-5 py-5 flex items-center justify-between ">
         {/* Logo/Brand */}
-        <div className="text-2xl font-bold text-white">Unmesh </div>
+        <div className="text-2xl font-bold text-white">Unmesh</div>
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6 text-sm font-medium">

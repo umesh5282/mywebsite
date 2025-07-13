@@ -4,6 +4,8 @@ import heroImg1 from '../assets/hero_img_1.avif';
 import heroImg2 from '../assets/hero_img_2.avif';
 import heroImg3 from '../assets/hero_img_1.avif';
 import Services from '../components/Services';
+import WhyChooseUs from '../components/WhyChooseUs';
+import LatestIdeas from '../components/LatestIdeas';
 
 const backgroundImages = [heroImg1, heroImg2, heroImg3];
 
@@ -88,6 +90,8 @@ const Home = () => {
         </div>
       </section>
       <Services />
+      <WhyChooseUs></WhyChooseUs>
+      <LatestIdeas />
     </>
   );
 };
